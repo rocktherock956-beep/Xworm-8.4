@@ -22,7 +22,7 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile rov.py
+        pyinstaller --onefile Xworm8.4.py
 
     - name: Upload EXE artifact
       uses: actions/upload-artifact@v4
